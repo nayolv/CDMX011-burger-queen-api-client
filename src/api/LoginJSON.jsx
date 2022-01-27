@@ -25,24 +25,24 @@ const LoginJSON = () => {
           cookies.set("email", res.email, { path: "/" });
           cookies.set("password", res.password, { path: "/" });
         if(res.role.kitchen) {
-            navigate("./kitchen");
+            navigate("/kitchen");
           } else if (res.role.waiter) {
-            navigate("./home");
+            navigate("/home");
           } else if (res.role.admin) {
-            navigate("./admin");
+            navigate("/admin");
           }
         } else {
           alert("No");
         }
       })
       .catch((err) => {
-        console.log(err);
+        console.error(err);
       });
   };
 
   const getCookies = () => {
   if (!cookies.get("email")) {
-      navigate( "./");
+      navigate( "/");
     }
   };
 
@@ -52,7 +52,7 @@ const LoginJSON = () => {
     cookies.remove("role", { path: "/" });
     cookies.remove("email", { path: "/" });
     cookies.remove("password", { path: "/" });
-    navigate("./");
+    navigate("/");
   };
   return {
     getUsers,

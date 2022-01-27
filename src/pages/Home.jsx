@@ -10,11 +10,11 @@ function Home({ loggedUser }) {
 
   function desyunos(e) {
     e.preventDefault();
-    navigate("./breakfast")
+    navigate("/breakfast")
   }
   function comida(e) {
     e.preventDefault();
-    navigate("./lunch");
+    navigate("/lunch");
   }
   const userName = cookies.get("name").firstName ;
  
