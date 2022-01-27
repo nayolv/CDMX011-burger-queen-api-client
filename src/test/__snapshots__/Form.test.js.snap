@@ -1,0 +1,353 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Debería quedarse en la misma pagina si hay error 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <form>
+        <section
+          id="float-father"
+        >
+          <p>
+            Inicia tu sesión
+          </p>
+          <section
+            id="float-label"
+          >
+            <label
+              class="Active"
+              for="email"
+            >
+              Correo Electrónico
+            </label>
+            <input
+              id="email"
+              type="text"
+              value="nattkeres@gmail.com"
+            />
+          </section>
+          <section
+            id="float-label"
+          >
+            <label
+              class="Active"
+              for="email"
+            >
+              Constraseña
+            </label>
+            <input
+              id="password"
+              type="password"
+              value="1234567"
+            />
+          </section>
+          <button
+            id="login"
+            type="submit"
+          >
+            Iniciar sesión
+          </button>
+        </section>
+      </form>
+    </div>
+    <div>
+      <main>
+        <div
+          class="images"
+        >
+          <img
+            alt="Error al cargar imagen"
+            src="gerente.png"
+          />
+          <img
+            alt="Error al cargar imagen"
+            src="camarera.png"
+          />
+          <img
+            alt="Error al cargar imagen"
+            src="cocinero.png"
+          />
+        </div>
+        <form>
+          <section
+            id="float-father"
+          >
+            <p>
+              Inicia tu sesión
+            </p>
+            <section
+              id="float-label"
+            >
+              <label
+                class=""
+                for="email"
+              >
+                Correo Electrónico
+              </label>
+              <input
+                id="email"
+                type="text"
+                value=""
+              />
+            </section>
+            <section
+              id="float-label"
+            >
+              <label
+                class=""
+                for="email"
+              >
+                Constraseña
+              </label>
+              <input
+                id="password"
+                type="password"
+                value=""
+              />
+            </section>
+            <button
+              id="login"
+              type="submit"
+            >
+              Iniciar sesión
+            </button>
+          </section>
+        </form>
+      </main>
+    </div>
+  </body>,
+  "container": <div>
+    <main>
+      <div
+        class="images"
+      >
+        <img
+          alt="Error al cargar imagen"
+          src="gerente.png"
+        />
+        <img
+          alt="Error al cargar imagen"
+          src="camarera.png"
+        />
+        <img
+          alt="Error al cargar imagen"
+          src="cocinero.png"
+        />
+      </div>
+      <form>
+        <section
+          id="float-father"
+        >
+          <p>
+            Inicia tu sesión
+          </p>
+          <section
+            id="float-label"
+          >
+            <label
+              class=""
+              for="email"
+            >
+              Correo Electrónico
+            </label>
+            <input
+              id="email"
+              type="text"
+              value=""
+            />
+          </section>
+          <section
+            id="float-label"
+          >
+            <label
+              class=""
+              for="email"
+            >
+              Constraseña
+            </label>
+            <input
+              id="password"
+              type="password"
+              value=""
+            />
+          </section>
+          <button
+            id="login"
+            type="submit"
+          >
+            Iniciar sesión
+          </button>
+        </section>
+      </form>
+    </main>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Debería renderizar correctamente 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <form>
+        <section
+          id="float-father"
+        >
+          <p>
+            Inicia tu sesión
+          </p>
+          <section
+            id="float-label"
+          >
+            <label
+              class="Active"
+              for="email"
+            >
+              Correo Electrónico
+            </label>
+            <input
+              id="email"
+              type="text"
+              value="nattkeres@gmail.com"
+            />
+          </section>
+          <section
+            id="float-label"
+          >
+            <label
+              class="Active"
+              for="email"
+            >
+              Constraseña
+            </label>
+            <input
+              id="password"
+              type="password"
+              value="123456"
+            />
+          </section>
+          <button
+            id="login"
+            type="submit"
+          >
+            Iniciar sesión
+          </button>
+        </section>
+      </form>
+    </div>
+    <div>
+      <div>
+        Holi crayoli soy el Home
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      Holi crayoli soy el Home
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

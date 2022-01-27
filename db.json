@@ -1,0 +1,342 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Café americano",
+      "price": "5",
+      "image": "",
+      "type": "Desayuno",
+      "dataEntry": "2021-12-01",
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "name": "Cafe con leche",
+      "price": "7",
+      "image": "",
+      "type": "Desayuno",
+      "dataEntry": "2021-12-01",
+      "quantity": 1
+    },
+    {
+      "id": 3,
+      "name": "Sandwich de jamón y queso",
+      "price": "10",
+      "image": "",
+      "type": "Desayuno",
+      "dateEntry": "2021-12-01",
+      "quantity": 1
+    },
+    {
+      "id": 4,
+      "name": "Jugo de frutas natural",
+      "price": "7",
+      "image": "",
+      "type": "Desayuno",
+      "dateEntry": "2021-12-02",
+      "quantity": 1
+    },
+    {
+      "id": 5,
+      "name": "Hamburguesa simple",
+      "price": "10",
+      "image": "",
+      "type": "Comida",
+      "dateEntry": "2021-12-01",
+      "quantity": 1
+    },
+    {
+      "id": 6,
+      "name": "Hamburguesa doble",
+      "price": "15",
+      "image": "",
+      "type": "Comida",
+      "dateEntry": "2021-12-01",
+      "quantity": 1
+    },
+    {
+      "id": 7,
+      "name": "Papas Fritas",
+      "price": "5",
+      "image": "",
+      "type": "Comida",
+      "dateEntry": "2021-12-02",
+      "quantity": 1
+    },
+    {
+      "id": 8,
+      "name": "Aros de cebolla",
+      "price": "5",
+      "image": "",
+      "type": "Comida",
+      "dateEntry": "2021-12-02",
+      "quantity": 1
+    },
+    {
+      "id": 9,
+      "name": "Agua 500ml",
+      "price": "5",
+      "image": "",
+      "type": "Comida",
+      "dateEntry": "2021-12-02",
+      "quantity": 1
+    },
+    {
+      "id": 10,
+      "name": "Agua 750ml",
+      "price": "7",
+      "image": "",
+      "type": "Comida",
+      "dateEntry": "2021-12-01",
+      "quantity": 1
+    },
+    {
+      "id": 11,
+      "name": "Bebida/gaseosa 500ml",
+      "price": "7",
+      "image": "",
+      "type": "Comida",
+      "dateEntry": "2021-12-02",
+      "quantity": 1
+    },
+    {
+      "id": 12,
+      "name": "Bebida/gaseosa 750ml",
+      "price": "10",
+      "image": "",
+      "type": "Comida",
+      "dateEntry": "2021-12-07",
+      "quantity": 1
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "client": "Alice",
+      "products": [
+        {
+          "name": "Hamburguesa simple",
+          "quantity": 1
+        },
+        {
+          "name": "Papas Fritas",
+          "quantity": 1
+        }
+      ],
+      "entry": "11:26",
+      "exit": "14:03",
+      "status": "Entregada",
+      "time": 157
+    },
+    {
+      "id": 2,
+      "client": "Antonieta",
+      "products": [
+        {
+          "name": "Hamburguesa simple",
+          "quantity": 1
+        },
+        {
+          "name": "Hamburguesa doble",
+          "quantity": 1
+        },
+        {
+          "name": "Aros de cebolla",
+          "quantity": 1
+        },
+        {
+          "name": "Papas Fritas",
+          "quantity": 1
+        }
+      ],
+      "entry": "13:49",
+      "exit": "18:34",
+      "status": "Entregada",
+      "time": 285
+    },
+    {
+      "id": 3,
+      "client": "Nay",
+      "products": [
+        {
+          "name": "Café americano",
+          "quantity": 1
+        },
+        {
+          "name": "Cafe con leche",
+          "quantity": 1
+        },
+        {
+          "name": "Jugo de frutas natural",
+          "quantity": 1
+        },
+        {
+          "name": "Sandwich de jamón y queso",
+          "quantity": 1
+        }
+      ],
+      "entry": "13:51",
+      "exit": "14:03",
+      "status": "Entregada",
+      "time": 12
+    },
+    {
+      "id": 4,
+      "client": "nay",
+      "products": [
+        {
+          "name": "Café americano",
+          "quantity": 1
+        },
+        {
+          "name": "Sandwich de jamón y queso",
+          "quantity": 1
+        }
+      ],
+      "entry": "18:35",
+      "exit": "18:36",
+      "status": "Entregada",
+      "time": 1
+    },
+    {
+      "id": 5,
+      "client": "val",
+      "products": [
+        {
+          "name": "Jugo de frutas natural",
+          "quantity": 4
+        }
+      ],
+      "entry": "18:35",
+      "exit": "14:40",
+      "status": "Entregada",
+      "time": -235
+    },
+    {
+      "id": 6,
+      "client": "Carlos",
+      "products": [
+        {
+          "name": "Sandwich de jamón y queso",
+          "quantity": 1
+        },
+        {
+          "name": "Café americano",
+          "quantity": 1
+        }
+      ],
+      "entry": "14:42",
+      "exit": "14:43",
+      "status": "Entregada",
+      "time": 1
+    },
+    {
+      "id": 7,
+      "client": "Memo",
+      "products": [
+        {
+          "name": "Café americano",
+          "quantity": 2
+        },
+        {
+          "name": "Sandwich de jamón y queso",
+          "quantity": 2
+        }
+      ],
+      "entry": "14:45",
+      "exit": "14:46",
+      "status": "Entregada",
+      "time": 1
+    },
+    {
+      "id": 8,
+      "client": "Nay",
+      "products": [
+        {
+          "name": "Café americano",
+          "quantity": 1
+        },
+        {
+          "name": "Sandwich de jamón y queso",
+          "quantity": 1
+        }
+      ],
+      "entry": "16:09",
+      "exit": "16:16",
+      "status": "Lista",
+      "time": 7
+    },
+    {
+      "id": 9,
+      "client": "Nay",
+      "products": [
+        {
+          "name": "Café americano",
+          "quantity": 1
+        },
+        {
+          "name": "Cafe con leche",
+          "quantity": 1
+        },
+        {
+          "name": "Sandwich de jamón y queso",
+          "quantity": 2
+        }
+      ],
+      "entry": "10:04",
+      "exit": "",
+      "status": "Pendiente",
+      "time": ""
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": {
+        "firstName": "Nayelli Guadalupe",
+        "lastName": "Olvera Domínguez"
+      },
+      "role": {
+        "kitchen": true
+      },
+      "email": "cocina4@ejemplo.com",
+      "password": "123456"
+    },
+    {
+      "id": 2,
+      "name": {
+        "firstName": "Juana",
+        "lastName": "Perez"
+      },
+      "role": {
+        "admin": true
+      },
+      "email": "admin@ejemplo.com",
+      "password": "123456"
+    },
+    {
+      "id": 7,
+      "name": {
+        "firstName": "Carlos",
+        "lastName": "Prueba"
+      },
+      "role": {
+        "kitchen": true
+      },
+      "email": "admin2@ejemplo.com",
+      "password": "123456894"
+    },
+    {
+      "id": 8,
+      "name": {
+        "firstName": "Nayelli Guadalupe",
+        "lastName": "Olvera Domínguez"
+      },
+      "role": {
+        "waiter": true
+      },
+      "email": "mesero@ejemplo.com",
+      "password": "123456"
+    }
+  ]
+}

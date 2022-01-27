@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Debería renderizar el Login 1`] = `
+<main>
+  <div
+    className="images"
+  >
+    <img
+      alt="Error al cargar imagen"
+      src="gerente.png"
+    />
+    <img
+      alt="Error al cargar imagen"
+      src="camarera.png"
+    />
+    <img
+      alt="Error al cargar imagen"
+      src="cocinero.png"
+    />
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <section
+      id="float-father"
+    >
+      <p>
+        Inicia tu sesión
+      </p>
+      <section
+        id="float-label"
+      >
+        <label
+          className=""
+          htmlFor="email"
+        >
+          Correo Electrónico
+        </label>
+        <input
+          id="email"
+          onChange={[Function]}
+          type="text"
+          value=""
+        />
+      </section>
+      <section
+        id="float-label"
+      >
+        <label
+          className=""
+          htmlFor="email"
+        >
+          Constraseña
+        </label>
+        <input
+          id="password"
+          onChange={[Function]}
+          type="password"
+          value=""
+        />
+      </section>
+      <button
+        id="login"
+        type="submit"
+      >
+        Iniciar sesión
+      </button>
+    </section>
+  </form>
+</main>
+`;
