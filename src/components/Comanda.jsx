@@ -120,7 +120,7 @@ function Comanda({ order, total, minusButton, deleteRow, plusButton }) {
           <button
             onClick={() => {
               postProducts(order, clientName);
-              navigate(0)
+              navigate("/breakfast")
             }}
           >
             Enviar

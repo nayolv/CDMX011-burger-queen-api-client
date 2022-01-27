@@ -83,7 +83,7 @@ function Reminder() {
         </TableContainer>
         <button
           onClick={() => {
-            navigate("./ready");
+            navigate("/ready");
           }}
         >
           Ir a ordenes
