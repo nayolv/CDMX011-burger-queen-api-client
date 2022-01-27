@@ -16,8 +16,10 @@ import {
   TableHead,
   TableRow,
 } from "@mui/material";
+import { useNavigate } from "react-router-dom";
 
 function Comanda({ order, total, minusButton, deleteRow, plusButton }) {
+  
   const { postProducts, clientName, clientNameFn } = usePostProducts(1);
   const {
     open,
@@ -27,6 +29,7 @@ function Comanda({ order, total, minusButton, deleteRow, plusButton }) {
     conditionalRenderTrue,
     conditionalRenderFalse,
   } = useShowHooks();
+  const navigate = useNavigate();
 
   return (
     <Fragment>
@@ -117,7 +120,7 @@ function Comanda({ order, total, minusButton, deleteRow, plusButton }) {
           <button
             onClick={() => {
               postProducts(order, clientName);
-              window.location.reload();
+              navigate(0)
             }}
           >
             Enviar

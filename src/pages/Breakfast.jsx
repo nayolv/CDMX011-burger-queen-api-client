@@ -44,7 +44,8 @@ function Breakfast() {
               }}
             >
               {product.name}
-              <br />${parseInt(product.price)}
+              <br />${parseInt(product.price)
+              }
             </button>
           ))}
         </section>
